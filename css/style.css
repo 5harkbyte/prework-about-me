@@ -12,23 +12,26 @@ body {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('.: ./img/shark0de.jpg');
+  background-image: url('../img/shark0de.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 1;
+
 }
 
 .masthead-intro {
-    margin-bottom: 0.1em;
+    margin-bottom: 0;
     font-size: 2em;
     color: #ffffff;
+    background-color: #000000b5;
 }
 
 .masthead-heading {
-    margin-top: -0.2em;
+    margin-top: 0;
+    background-color: #000000b5;
     font-weight: bold;
     font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+    letter-spacing: 0;
     color: #ffffff;
 }
 
